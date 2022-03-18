@@ -1,15 +1,20 @@
 {
-  "name": "ui-kit",
+  "name": "@glerme/react-library-template",
   "version": "0.0.1",
-  "description": "A react component library",
+  "description": "A react component library template",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "author": "Guilherme Felipe",
+  "author": "Guilherme Felipe <https://glerme.dev/> Git: https://github.com/Glerme",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Glerme/react-library-template",
+    "directory": "glerme/react-library-template"
+  },
   "scripts": {
     "rollup": "rollup -c",
     "test": "jest",
